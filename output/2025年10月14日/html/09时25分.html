@@ -1,0 +1,122 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-10-14 09:25:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特斯拉 马斯克</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E7%AC%AC%E4%BA%8C%E4%BB%A3%E6%98%9F%E8%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E8%AF%95%E9%A3%9E" target="_blank" class="news-link">马斯克第二代星舰最后一次试飞</a> [23] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560848593934880294/" target="_blank" class="news-link">特斯拉市值一夜大增745亿美元</a> [24] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2168170" target="_blank" class="news-link">OpenAI下订博通10GW定制芯片 AI巨头放言“这才是九牛一毛”</a> [7] <font color='grey'>- 09时25分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757107" target="_blank" class="news-link">OpenAI再签重磅协议：计划未来四年与博通合作部署10千兆瓦定制化芯片和网络设备</a> [8] <font color='grey'>- 09时25分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757056" target="_blank" class="news-link">超预期！中国9月以美元计价出口同比增长8.3%，进口同比增7.4% 工业机器人和风电出口增长强劲</a> [6] <font color='grey'>- 09时25分</font><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/266811517" target="_blank" class="news-link">如果机器人统治地球，那么为什么要留着人类？</a> [15] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[抖音] <a href="https://www.douyin.com/hot/2268904" target="_blank" class="news-link">库克抖音官宣iPhone Air中国发售</a> [13] <font color='grey'>- 09时25分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757070" target="_blank" class="news-link">高盛大幅上调阿里未来三年资本开支预测至4600亿：云业务国际化被低估，AI支出转化正重塑增长！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时25分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">街舞 音乐</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E5%8D%8A%E5%A4%9C%E6%94%BE%E6%81%90%E6%80%96%E9%9F%B3%E4%B9%90+%E6%9F%AC%E5%91%8A%E5%88%B0%E8%81%94%E5%90%88%E5%9B%BD" target="_blank" class="news-link">泰国半夜放恐怖音乐 柬告到联合国</a> [28] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 5 条)</h3>
+        <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7560848593934880294/" target="_blank" class="news-link">特斯拉市值一夜大增745亿美元</a> [24]</li></ul><h4>百度热搜 (2 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E7%AC%AC%E4%BA%8C%E4%BB%A3%E6%98%9F%E8%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E8%AF%95%E9%A3%9E" target="_blank" class="news-link">马斯克第二代星舰最后一次试飞</a> [23]</li><li><a href="https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E5%8D%8A%E5%A4%9C%E6%94%BE%E6%81%90%E6%80%96%E9%9F%B3%E4%B9%90+%E6%9F%AC%E5%91%8A%E5%88%B0%E8%81%94%E5%90%88%E5%9B%BD" target="_blank" class="news-link">泰国半夜放恐怖音乐 柬告到联合国</a> [28]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2168170" target="_blank" class="news-link">OpenAI下订博通10GW定制芯片 AI巨头放言“这才是九牛一毛”</a> [7]</li></ul><h4>知乎 (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/266811517" target="_blank" class="news-link">如果机器人统治地球，那么为什么要留着人类？</a> [15]</li></ul></div>
+    </body>
+    </html>
+    
